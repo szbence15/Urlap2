@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <h2 style="font-size: 24px">Alapadatok</h2>
+    <form>
+        <label for="fname">Teljes neved</label>
+        <input type="text" id="név" name="nev"><br>
+        Nemed
+        <input type="radio" id="ferfi" name="gender" value="ferfi">
+        <label for="ferfi">Férfi</label>
+        <input type="radio" id="no" name="gender" value="no">
+        <label for="no">Nő</label><br>
+        <label for="email">E-mail*</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="telefonszam">Telefonszám*</label>
+        <select id="telefonszam" name="telefonszam">
+        <option value="36">36</option>
+        <option value="72">72</option>
+        <option value="50">50</option>
+        <label for="telefonszam"></label>
+        <input type="text" id="telefonszam" name="telefonszam">
+        </select><br>
+        <label for="telefonszam">Levelezés alapértelmezett nyelve*</label>
+        <select id="levelezes" name="levelezes">
+        <option value="magyar">magyar</option>
+        <option value="angol">angol</option>
+        <option value="spanyol">spanyol</option>
+        </select><br>
+        <label for="ev">Születési idő</label>
+        <select id="ev" name="ev">
+        <option value="ev">Év</option>
+        <option value="ev">2003</option>
+        <option value="ev">1984</option>
+        </select>
+        <select name="ho" id="ho">
+        <option value="ho">Hó</option>
+        <option value="ho">02</option>
+        <option value="ho">01</option>
+        </select>
+        <select name="nap" id="nap">
+        <option value="nap">Nap</option>
+        <option value="nap">12</option>
+        <option value="nap">05</option>
+        </select><br>
+        <input type="submit" value="Mentés">
+      </form>
+</body>
+</html>
